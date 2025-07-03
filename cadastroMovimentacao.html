@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro movimentacao</title>
+</head>
+<body>
+    <h2>Cadastro de movimentacao</h2>    
+
+    <form method="post"  action="cadastrarMovimentacao.php">
+       
+         <br>
+        <label>Operador:</label>
+         <br>
+        <input type="text" name="operador" required>
+
+        <br>
+        <label>Produto:</label>
+         <br>
+        <input type="text" name="produto" required>
+        <br>
+
+        <label>Tipo:</label>
+        <br>
+        <input type="text" name="tipo" required>
+        
+        <br>
+        <label>Data e hora:</label>
+         <br>
+        <input type="text" name="dataHora" required>
+       
+         <br>
+        <label>Usuario:</label>
+         <br>
+        <input type="text" name="usuarioMovimentacao" required>
+        
+        
+
+         <br>
+        <input type="submit" value="Cadastrar Movimentacao">
+    </form>
+</body>
+</html>
